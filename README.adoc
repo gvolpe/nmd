@@ -1,0 +1,18 @@
+= nmd
+
+== Introduction
+:uri-nixos: https://nixos.org/
+:uri-nixos-modules: https://nixos.org/nixos/manual/index.html#sec-writing-modules
+
+The nmd project is a standalone version of the documentation system
+inside {uri-nixos}[NixOS]. It has been refactored to make it easier to
+generate documentation for other projects that use the
+{uri-nixos-modules}[NixOS module system].
+
+Note, this project is still immature and lack some features.
+
+== Example output
+
+https://rycee.gitlab.io/home-manager/[Home Manager Manual]
+
+https://rycee.gitlab.io/nur-expressions/[rycee\'s NUR manual]
