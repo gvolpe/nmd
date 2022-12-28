@@ -1,6 +1,6 @@
 # nmd
 
-Fork of [rycee/nmd](https://gitlab.com/rycee/nmd/) with theming options and flake support.
+Fork of [rycee/nmd](https://gitlab.com/rycee/nmd/) with theming options and flakes support.
 
 ## Usage
 
@@ -44,3 +44,5 @@ Use the functions provided in the `pkgs.nmd` set, e.g.
   };
 }
 ```
+
+Rendered example: [gvolpe.com/neovim-flake](https://gvolpe.com/neovim-flake/).
