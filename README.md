@@ -10,11 +10,7 @@ Add flake input.
 {
   inputs = {
     nixpkgs.url = github:nixos/nixpkgs/nixpkgs-unstable;
-
-    nmd = {
-      url = github:gvolpe/nmd;
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    nmd.url = github:gvolpe/nmd;
   };
 }
 ```
